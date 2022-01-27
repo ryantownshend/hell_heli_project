@@ -1,0 +1,13 @@
+﻿#include "defines.hpp"
+#include "dialogs.hpp"
+
+onLoadName="Auto-Rotation Practice";
+onLoadMission = $STR_dsp_onLoadMission;
+loadScreen = "loadscreen.paa";
+overviewText = $STR_dsp_overviewText;
+overviewPicture = "overview.paa";
+author="dr strangepete, updated by dent";
+briefing=0;
+debriefing=0;
+enableDebugConsole = 1;
+saving=0

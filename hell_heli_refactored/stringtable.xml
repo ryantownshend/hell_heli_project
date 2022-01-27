@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project name="Hell-Heli - dr_strangepete">
+	<Package name="Hell-Heli">
+		<Container name="Words">
+			<Key ID="str_dsp_ChangeAircraft">
+				<Original>Change Helicopter</Original>
+				<English>Change Helicopter</English>
+				<Czech>Změna Vrtulník</Czech>
+				<French>Changer Hélicoptère</French>
+				<German>Hubschrauber Ändern</German>
+				<Italian>Cambiare Elicottero</Italian>
+				<Polish>Zmienić Helikopter</Polish>
+				<Portuguese>Mudar Helicóptero</Portuguese>
+				<Russian>Выбрать вертолет</Russian>
+				<Spanish>Cambie Helicóptero</Spanish>
+			</Key>
+			<Key ID="str_dsp_EscapeBush">
+				<Original>Escape Bush</Original>
+				<English>Escape Bush</English>
+				<Czech>Útěk Bushovi</Czech>
+				<French>Échapper Arbre</French>
+				<German>Flucht Baum</German>
+				<Italian>Fuga Albero</Italian>
+				<Polish>Ucieczka Bushowi</Polish>
+				<Portuguese>Fuja Árvore</Portuguese>
+				<Russian>Перезагрузка</Russian>
+				<Spanish>Escapar de Bush</Spanish>
+			</Key>
+			<Key ID="str_dsp_ControlPanel">
+				<Original>Settings</Original>
+				<English>Settings</English>
+				<Czech>Nastaveni</Czech>
+				<French>Paramètres</French>
+				<German>Einstellungen</German>
+				<Italian>Impostazioni</Italian>
+				<Polish>Ustawienia</Polish>
+				<Portuguese>Configurações</Portuguese>
+				<Russian>Настройки</Russian>
+				<Spanish>Configuración</Spanish>
+			</Key>
+			<Key ID="str_dsp_EnableRandom">
+				<Original>Enable Random</Original>
+				<English>Enable Random</English>
+				<Czech>Povolit Náhodný</Czech>
+				<French>Activer Aléatoire</French>
+				<German>Zufällige Aktivieren</German>
+				<Italian>Abilita Casuale</Italian>
+				<Polish>Włącz Losowej</Polish>
+				<Portuguese>Ativar Aleatório</Portuguese>
+				<Russian>Вкл. случайные поломки</Russian>
+				<Spanish>Activar Random</Spanish>
+			</Key>
+			<Key ID="str_dsp_DisableRandom">
+				<Original>Disable Random</Original>
+				<English>Disable Random</English>
+				<Czech>Zakázat Náhodný</Czech>
+				<French>Désactiver Aléatoire</French>
+				<German>Deaktivieren Zufalls</German>
+				<Italian>Disattivare Casuale</Italian>
+				<Polish>Wyłączanie Losowego</Polish>
+				<Portuguese>Desativar Aleatório</Portuguese>
+				<Russian>Откл. случайные поломки</Russian>
+				<Spanish>Desactivar Aleatorio</Spanish>
+			</Key>
+			<Key ID="str_dsp_Enabled">
+				<Original>ENABLED</Original>
+				<English>ENABLED</English>
+				<Czech>POVOLENO</Czech>
+				<French>PERMIS</French>
+				<German>FREIGEGEBEN</German>
+				<Italian>ABILITATO</Italian>
+				<Polish>AKTYWNY</Polish>
+				<Portuguese>HABILITADO</Portuguese>
+				<Russian>ВКЛЮЧЕНЫ</Russian>
+				<Spanish>HABILITADO</Spanish>
+			</Key>
+			<Key ID="str_dsp_Disabled">
+				<Original>DISABLED</Original>
+				<English>DISABLED</English>
+				<Czech>INVALIDNÍ</Czech>
+				<French>HANDICAPÉ</French>
+				<German>DEAKTIVIERT</German>
+				<Italian>DISABILE</Italian>
+				<Polish>NIEPEŁNOSPRAWNY</Polish>
+				<Portuguese>INVÁLIDO</Portuguese>
+				<Russian>ОТКЛЮЧЕНЫ</Russian>
+				<Spanish>DISCAPACITADO</Spanish>
+			</Key>
+			<Key ID="str_dsp_RandomFailure">
+				<Original>Random Failure</Original>
+				<English>Random Failure</English>
+				<Czech>Náhodný Selhání</Czech>
+				<French>Le non Aléatoire</French>
+				<German>Zufallsausfall</German>
+				<Italian>Fallimento Casuale</Italian>
+				<Polish>Przypadkowego Uszkodzenia</Polish>
+				<Portuguese>Falha Aleatória</Portuguese>
+				<Russian>Случайные поломки:</Russian>
+				<Spanish>Si no Aleatoria</Spanish>
+			</Key>
+			<Key ID="str_dsp_EngineFailure">
+				<Original>Engine Failure</Original>
+				<English>Engine Failure</English>
+				<Czech>Porucha Motoru</Czech>
+				<French>Panne Moteur</French>
+				<German>Triebwerksausfall</German>
+				<Italian>Guasto al Motore</Italian>
+				<Polish>Awaria Silnika</Polish>
+				<Portuguese>Falha do Motor</Portuguese>
+				<Russian>Отказ двигателя</Russian>
+				<Spanish>Daños en el Motor</Spanish>
+			</Key>
+			<Key ID="str_dsp_TailRotorFailure">
+				<Original>Tail Rotor Failure</Original>
+				<English>Tail Rotor Failure</English>
+				<Czech>Porucha Ocasního Rotoru</Czech>
+				<French>Rotor de queue Défaut</French>
+				<German>Heckrotorausfall</German>
+				<Italian>Fallimento Rotore di Coda</Italian>
+				<Polish>Awaria Ogonowe</Polish>
+				<Portuguese>Falha do Rotor de Cauda</Portuguese>
+				<Russian>Отказ рулевого винта</Russian>
+				<Spanish>El fracaso del Rotor de Cola</Spanish>
+			</Key>
+			<Key ID="str_dsp_Repair">
+				<Original>Repair</Original>
+				<English>Repair</English>
+				<Czech>Opravit</Czech>
+				<French>Réparer</French>
+				<German>Beheben</German>
+				<Italian>Riparare</Italian>
+				<Polish>Naprawiać</Polish>
+				<Portuguese>Reparar</Portuguese>
+				<Russian>Ремонт</Russian>
+				<Spanish>Reparar</Spanish>
+			</Key>
+		</Container>
+		<Container name="Text">
+			<Key ID="str_dsp_IntroText">
+				<Original>&lt;t color='#%5' align='center'&gt;Random Failure &lt;t color='#%2'&gt;%1&lt;/t&gt;&lt;/t&gt;&lt;br /&gt;&lt;t color='#888888'&gt;Use Action Menu to Enable Random Autorotations, or Manually Trigger Failures&lt;/t&gt;&lt;br /&gt;&lt;br /&gt;&lt;t color='#%5' align='center'&gt;Basic Autorotation:&lt;/t&gt;&lt;t align='left'&gt;&lt;br /&gt; On Engine Failure Immediately hold the &lt;t color='#%6'&gt;%3&lt;/t&gt; and Reduce Forward Speed&lt;br /&gt;Listen to the Blade Speed!&lt;br /&gt;&lt;br /&gt;Appx. 10m Above Ground press the &lt;t color='#%6'&gt;%4&lt;/t&gt; to Reduce Landing Speed&lt;br /&gt;Touch Down Softly!&lt;br /&gt;&lt;br /&gt;  Good Luck.&lt;/t&gt;</Original>
+				<English>&lt;t color='#%5' align='center'&gt;Random Failure &lt;t color='#%2'&gt;%1&lt;/t&gt;&lt;/t&gt;&lt;br /&gt;&lt;t color='#888888'&gt;Use Action Menu to Enable Random Autorotations, or Manually Trigger Failures&lt;/t&gt;&lt;br /&gt;&lt;br /&gt;&lt;t color='#%5' align='center'&gt;Basic Autorotation:&lt;/t&gt;&lt;t align='left'&gt;&lt;br /&gt; On Engine Failure Immediately hold the &lt;t color='#%6'&gt;%3&lt;/t&gt; and Reduce Forward Speed&lt;br /&gt;Listen to the Blade Speed!&lt;br /&gt;&lt;br /&gt;Appx. ~10m Above Ground press the &lt;t color='#%6'&gt;%4&lt;/t&gt; to Reduce Landing Speed&lt;br /&gt;Touch Down Softly!&lt;br /&gt;&lt;br /&gt;  Good Luck.&lt;/t&gt;</English>
+				<Czech>&lt;t color='#%5' align='center'&gt;Náhodný Selhání &lt;t color='#%2'&gt;%1&lt;/t&gt;&lt;/t&gt;&lt;br /&gt;&lt;t color='#888888'&gt;Použijte akční nabídky Povolit Náhodný autorotace nebo ručně Trigger Selhání&lt;/t&gt;&lt;br /&gt;&lt;br /&gt;&lt;t color='#%5' align='center'&gt;Základní Autorotace:&lt;/t&gt;&lt;t align='left'&gt;&lt;br /&gt; Při výpadku motoru okamžitě držet &lt;t color='#%6'&gt;%3&lt;/t&gt; a Snížit rychlost vpřed&lt;br /&gt;Poslechněte si rychlosti pilového pásu!&lt;br /&gt;&lt;br /&gt;~ 10 m nad zemí stiskněte &lt;t color='#%6'&gt;%4&lt;/t&gt; ke snížení Přistávací rychlost&lt;br /&gt;Stiskněte tlačítko Dolů Tiše!&lt;br /&gt;&lt;br /&gt;  Hodně štěstí.&lt;/t&gt;</Czech>
+				<French>&lt;t color='#%5' align='center'&gt;Le non Aléatoire &lt;t color='#%2'&gt;%1&lt;/t&gt;&lt;/t&gt;&lt;br /&gt;&lt;t color='#888888'&gt;Utilisez le menu d'action visant à permettre aux autorotation au hasard, ou manuellement déclencher échecs&lt;/t&gt;&lt;br /&gt;&lt;br /&gt;&lt;t color='#%5' align='center'&gt;Autorotation de Base:&lt;/t&gt;&lt;t align='left'&gt;&lt;br /&gt; En cas de défaillance du moteur tenir immédiatement le &lt;t color='#%6'&gt;%3&lt;/t&gt; et réduire la vitesse avant&lt;br /&gt;Écoutez la vitesse de la lame!&lt;br /&gt;&lt;br /&gt;~ 10m au dessus du sol appuyez sur la &lt;t color='#%6'&gt;%4&lt;/t&gt; pour réduire la vitesse d'atterrissage&lt;br /&gt;Atterrir Doucement!&lt;br /&gt;&lt;br /&gt;  Bonne chance.&lt;/t&gt;</French>
+				<German>&lt;t color='#%5' align='center'&gt;Zufallsausfall &lt;t color='#%2'&gt;%1&lt;/t&gt;&lt;/t&gt;&lt;br /&gt;&lt;t color='#888888'&gt;Verwenden Aktionsmenü Zufallsautorotation aktivieren oder manuell auslösen Ausfälle&lt;/t&gt;&lt;br /&gt;&lt;br /&gt;&lt;t color='#%5' align='center'&gt;Grundautorotation:&lt;/t&gt;&lt;t align='left'&gt;&lt;br /&gt; Auf Motorausfall sofort halten Sie die &lt;t color='#%6'&gt;%3&lt;/t&gt; und Fahrgeschwindigkeit verringern&lt;br /&gt;Hören Sie sich die Messerdrehzahl!&lt;br /&gt;&lt;br /&gt;~ 10m über dem Boden drücken &lt;t color='#%6'&gt;%4&lt;/t&gt; auf Landegeschwindigkeit reduzieren&lt;br /&gt;Berühren Sie sanft nach unten!&lt;br /&gt;&lt;br /&gt;  Viel Glück.&lt;/t&gt;</German>
+				<Italian>&lt;t color='#%5' align='center'&gt;Fallimento Casuale &lt;t color='#%2'&gt;%1&lt;/t&gt;&lt;/t&gt;&lt;br /&gt;&lt;t color='#888888'&gt;Utilizzare il menu di azione per attivare autorotazione casuali, o Manualmente innescare fallimenti&lt;/t&gt;&lt;br /&gt;&lt;br /&gt;&lt;t color='#%5' align='center'&gt;Autorotazione Base:&lt;/t&gt;&lt;t align='left'&gt;&lt;br /&gt; Sulla rottura del motore immediatamente premuto il &lt;t color='#%6'&gt;%3&lt;/t&gt; e ridurre Forward velocità&lt;br /&gt;Ascolta la velocità della lama!&lt;br /&gt;&lt;br /&gt;~ 10m sopra premere terra l' &lt;t color='#%6'&gt;%4&lt;/t&gt; per ridurre Landing Velocità&lt;br /&gt;Atterrare dolcemente!&lt;br /&gt;&lt;br /&gt;  Buona fortuna.&lt;/t&gt;</Italian>
+				<Polish>&lt;t color='#%5' align='center'&gt;Awaria Losowa &lt;t color='#%2'&gt;%1&lt;/t&gt;&lt;/t&gt;&lt;br /&gt;&lt;t color='#888888'&gt;Użyj menu działań umożliwiających Losowo autorotations lub ręcznie wywołać Awarie&lt;/t&gt;&lt;br /&gt;&lt;br /&gt;&lt;t color='#%5' align='center'&gt;Podstawowe Autorotacji:&lt;/t&gt;&lt;t align='left'&gt;&lt;br /&gt; Na awarii silnika Natychmiast przytrzymaj &lt;t color='#%6'&gt;%3&lt;/t&gt; Zmniejszyć prędkość jazdy i&lt;br /&gt;Słuchaj prędkości cięcia!&lt;br /&gt;&lt;br /&gt;~ 10m nad prasie ziemi &lt;t color='#%6'&gt;%4&lt;/t&gt; na zmniejszenie prędkości docelowej&lt;br /&gt;Dotykać dół cicho!&lt;br /&gt;&lt;br /&gt;  Powodzenia.&lt;/t&gt;</Polish>
+				<Portuguese>&lt;t color='#%5' align='center'&gt;Falha Aleatória &lt;t color='#%2'&gt;%1&lt;/t&gt;&lt;/t&gt;&lt;br /&gt;&lt;t color='#888888'&gt;Use o menu de ação para ativar autorotations aleatórias, ou manualmente acionar Falhas&lt;/t&gt;&lt;br /&gt;&lt;br /&gt;&lt;t color='#%5' align='center'&gt;Autorotation Básico:&lt;/t&gt;&lt;t align='left'&gt;&lt;br /&gt; Em falha do motor segurar imediatamente o &lt;t color='#%6'&gt;%3&lt;/t&gt; e reduzir velocidade de avanço&lt;br /&gt;Ouça a velocidade da lâmina!&lt;br /&gt;&lt;br /&gt;~ 10m acima do solo a imprensa &lt;t color='#%6'&gt;%4&lt;/t&gt; Reduzir velocidade de pouso&lt;br /&gt;Toque suavemente para baixo!&lt;br /&gt;&lt;br /&gt;  Boa sorte.&lt;/t&gt;</Portuguese>
+				<Russian>&lt;t color='#%5' align='center'&gt;Случайные поломки &lt;t color='#%2'&gt;%1&lt;/t&gt;&lt;/t&gt;&lt;br /&gt;&lt;t color='#888888'&gt;Используйте меню действий, чтобы включить/отключить случайные поломки или вызвать их вручную&lt;/t&gt;&lt;br /&gt;&lt;br /&gt;&lt;t color='#%5' align='center'&gt;Основы авторотации:&lt;/t&gt;&lt;t align='left'&gt;&lt;br /&gt; При поломке двигателя как можно скорее нажмите и удерживайте &lt;t color='#%6'&gt;%3&lt;/t&gt; и уменьшите скорость горизонтального движения&lt;br /&gt;Прислушайтесь к звуку ротора!&lt;br /&gt;&lt;br /&gt; На высоте ~ 10 м над землей нажмите &lt;t color='#%6'&gt;%4&lt;/t&gt;, чтобы уменьшить скорость падения.&lt;br /&gt;Мягко коснитесь земли!&lt;br /&gt;&lt;br /&gt;  Удачи!&lt;/t&gt;</Russian>
+				<Spanish>&lt;t color='#%5' align='center'&gt;Fallo Aleatorio &lt;t color='#%2'&gt;%1&lt;/t&gt;&lt;/t&gt;&lt;br /&gt;&lt;t color='#888888'&gt;Utilice el menú de acción que permita a autorrotaciones azar o manualmente provocar fallas&lt;/t&gt;&lt;br /&gt;&lt;br /&gt;&lt;t color='#%5' align='center'&gt;Autorotation Básico:&lt;/t&gt;&lt;t align='left'&gt;&lt;br /&gt; El fallo de motor celebrar inmediatamente la &lt;t color='#%6'&gt;%3&lt;/t&gt; y Reducir Velocidad de avance&lt;br /&gt;Escuche la velocidad de la hoja!&lt;br /&gt;&lt;br /&gt;~ 10m sobre el suelo de la prensa &lt;t color='#%6'&gt;%4&lt;/t&gt; Para reducir la velocidad de aterrizaje&lt;br /&gt;Toque suavemente hacia abajo!&lt;br /&gt;&lt;br /&gt;  Buena suerte.&lt;/t&gt;</Spanish>
+			</Key>
+			<Key ID="str_dsp_onLoadMission">
+				<Original>Controls and Settings in the Action Menu [default - scroll wheel]</Original>
+				<English>Controls and Settings in the Action Menu [default - scroll wheel]</English>
+				<Czech>Ovládání a nastavení v akčním menu (výchozí - rolovací kolečko)</Czech>
+				<French>Contrôles et réglages dans le menu Action [défaut - molette de défilement]</French>
+				<German>Bedienelemente und Einstellungen im Aktionsmenü (Standard - Scrollrad)</German>
+				<Italian>Controlli e Impostazioni nel menu Azione [default - rotella di scorrimento]</Italian>
+				<Polish>Elementy sterowania i ustawień w menu Akcja [domyślne - przewiń koła]</Polish>
+				<Portuguese>Controles e configurações no menu Ação [default - roda de rolagem]</Portuguese>
+				<Russian>Настройки и функции доступны в "Меню действий" [по-умолчанию - колесо мыши]</Russian>
+				<Spanish>Controles y Ajustes en el menú de acción [por defecto - Rueda de desplazamiento]</Spanish>
+			</Key>
+			<Key ID="str_dsp_overviewText">
+				<Original>Randomized, and Commanded Engine and Tail-Rotor Failures. Random Autorotations are Disabled By Default; Enable via Actions Menu in game.</Original>
+				<English>Randomized, and Commanded Engine and Tail-Rotor Failures. Random Autorotations are Disabled By Default; Enable via Actions Menu in game.</English>
+				<Czech>Randomizovaná, a přikázal motoru a Zadní rotorové poruchy. Náhodné Autorotace jsou ve výchozím nastavení zakázána, Povolit prostřednictvím Nabídka Akce ve hře.</Czech>
+				<French>Randomisé, et échecs moteur et du rotor de queue Commandée. Autorotation aléatoires sont désactivés par défaut, Activer le menu par des Actions dans le jeu.</French>
+				<German>Randomisierte und Beherrschte Motor und Heckrotor-Ausfälle. Zufällige Autorotationen sind standardmäßig deaktiviert, aktivieren über Menü Aktionen im Spiel.</German>
+				<Italian>Randomizzati e fallimenti motore comandata e Coda-rotore. Autorotazioni casuali sono disabilitati per impostazione predefinita, Enable Menu attraverso azioni nel gioco.</Italian>
+				<Polish>Randomizowanych i zadanej i Awarie silnika tylna wirnika. Losowe autorotacji są domyślnie wyłączone, włączyć w menu za pomocą działań w grze.</Polish>
+				<Portuguese>Estudo randomizado, e falhas de motor comandado e cauda do rotor. Autorotations aleatórias são desabilitados por padrão, Ativar o menu via ações no jogo.</Portuguese>
+				<Russian>Случайные поломки, а также поломки вручную. Случайные поломки по-умолчанию отключены, для их активации используйте "Меню действий".</Russian>
+				<Spanish>Aleatorios, y mandó motor y fallas del rotor de cola. Autorrotaciones azar están desactivados por defecto, a través de acciones Habilitar menú en el juego.</Spanish>
+			</Key>
+		</Container>
+		<Container name="Dialogs">
+			<Key ID="str_dsp_randomTimeout">
+				<Original>random timeout:</Original>
+				<English>random timeout:</English>
+				<Czech>náhodné timeout:</Czech>
+				<French>délai aléatoire:</French>
+				<German>zufalls Timeout:</German>
+				<Italian>timeout casuale:</Italian>
+				<Polish>losowy czas oczekiwania:</Polish>
+				<Portuguese>tempo de espera aleatório:</Portuguese>
+				<Russian>Задержка поломки:</Russian>
+				<Spanish>tiempo de espera aleatorio:</Spanish>
+			</Key>
+			<Key ID="str_dsp_tailFailureChance">
+				<Original>tail failure chance:</Original>
+				<English>tail failure chance:</English>
+				<Czech>ocas selhání šance:</Czech>
+				<French>queue échec hasard:</French>
+				<German>schwanz ausfall chance:</German>
+				<Italian>coda di probabilità di fallimento:</Italian>
+				<Polish>ogon awaria szansa:</Polish>
+				<Portuguese>cauda fracasso oportunidade:</Portuguese>
+				<Russian>Поломка хвост. винта:</Russian>
+				<Spanish>fracaso cola oportunidad:</Spanish>
+			</Key>
+			<Key ID="str_dsp_tailChance">
+				<Original>failure chance percentage; 0 to disable</Original>
+				<English>failure chance percentage; 0 to disable</English>
+				<Czech>selhání šance procento, 0 pro vypnutí</Czech>
+				<French>pourcentage échec de hasard; 0 pour désactiver</French>
+				<German>ausfall chance prozentsatz; 0 deaktiviert</German>
+				<Italian>percentuale di probabilità di fallimento, 0 per disabilitare</Italian>
+				<Polish>skuteczność awaria szansa, 0, aby wyłączyć</Polish>
+				<Portuguese>falha oportunidade percentagem; 0 para desativar</Portuguese>
+				<Russian>Вероятность поломки, проценты; 0 для отключения</Russian>
+				<Spanish>porcentaje de posibilidades de fallar; 0 para desactivar</Spanish>
+			</Key>
+			<Key ID="str_dsp_Apply">
+				<Original>Apply</Original>
+				<English>Apply</English>
+				<Czech>Platit</Czech>
+				<French>Appliquer</French>
+				<German>Bewerben</German>
+				<Italian>Applicare</Italian>
+				<Polish>Zastosować</Polish>
+				<Portuguese>Aplicar</Portuguese>
+				<Russian>Применить</Russian>
+				<Spanish>Aplicar</Spanish>
+			</Key>
+			<Key ID="str_dsp_weather">
+				<Original>weather</Original>
+				<English>weather</English>
+				<Czech>počasí</Czech>
+				<French>temps</French>
+				<German>wetter</German>
+				<Italian>che tempo fa</Italian>
+				<Polish>pogod</Polish>
+				<Portuguese>clima</Portuguese>
+				<Russian>Погода</Russian>
+				<Spanish>tiempo</Spanish>
+			</Key>
+			<Key ID="str_dsp_fog">
+				<Original>fog</Original>
+				<English>fog</English>
+				<Czech>mlha</Czech>
+				<French>brouillard</French>
+				<German>nebel</German>
+				<Italian>fendinebbia</Italian>
+				<Polish>mgła</Polish>
+				<Portuguese>nevoeiro</Portuguese>
+				<Russian>туман</Russian>
+				<Spanish>la niebla</Spanish>
+			</Key>
+			<Key ID="str_dsp_overcast">
+				<Original>overcast</Original>
+				<English>overcast</English>
+				<Czech>zatažený</Czech>
+				<French>couvert</French>
+				<German>bedeckt</German>
+				<Italian>nuvoloso</Italian>
+				<Polish>pochmurny</Polish>
+				<Portuguese>entristecido</Portuguese>
+				<Russian>облачность</Russian>
+				<Spanish>cubierto</Spanish>
+			</Key>
+			<Key ID="str_dsp_rain">
+				<Original>rain</Original>
+				<English>rain</English>
+				<Czech>déšť</Czech>
+				<French>pleuvoir</French>
+				<German>regnen</German>
+				<Italian>pioggia</Italian>
+				<Polish>pada deszcz</Polish>
+				<Portuguese>chuva</Portuguese>
+				<Russian>дождь</Russian>
+				<Spanish>llover</Spanish>
+			</Key>
+			<Key ID="str_dsp_time">
+				<Original>time</Original>
+				<English>time</English>
+				<Czech>čas</Czech>
+				<French>temps</French>
+				<German>zeit</German>
+				<Italian>orario</Italian>
+				<Polish>godzina</Polish>
+				<Portuguese>tempo</Portuguese>
+				<Russian>время</Russian>
+				<Spanish>hora</Spanish>
+			</Key>
+			<Key ID="str_dsp_Hour">
+				<Original>Hour</Original>
+				<English>Hour</English>
+				<Czech>Hodina</Czech>
+				<French>Heure</French>
+				<German>Stunde</German>
+				<Italian>Ora</Italian>
+				<Polish>Godzina</Polish>
+				<Portuguese>Hora</Portuguese>
+				<Russian>Час</Russian>
+				<Spanish>Hora</Spanish>
+			</Key>
+			<Key ID="str_dsp_Minute">
+				<Original>Minute</Original>
+				<English>Minute</English>
+				<Czech>Minuta</Czech>
+				<French>Minute</French>
+				<German>Minute</German>
+				<Italian>Minuto</Italian>
+				<Polish>Minuta</Polish>
+				<Portuguese>Minuto</Portuguese>
+				<Russian>Минут</Russian>
+				<Spanish>Minuto</Spanish>
+			</Key>
+      <Key ID="str_dsp_Seconds">
+				<Original>seconds</Original>
+				<English>seconds</English>
+				<Czech>sekundy</Czech>
+				<French>secondes</French>
+				<German>sekunden</German>
+				<Italian>secondi</Italian>
+				<Polish>sekund</Polish>
+				<Portuguese>segundos</Portuguese>
+				<Russian>секунд</Russian>
+				<Spanish>segundos</Spanish>
+			</Key>
+      <Key ID="str_dsp_Min">
+				<Original>min</Original>
+				<English>min</English>
+				<Czech>min</Czech>
+				<French>min</French>
+				<German>min</German>
+				<Italian>min</Italian>
+				<Polish>min</Polish>
+				<Portuguese>min</Portuguese>
+				<Russian>min</Russian>
+				<Spanish>min</Spanish>
+			</Key>
+      <Key ID="str_dsp_Max">
+				<Original>max</Original>
+				<English>max</English>
+				<Czech>max</Czech>
+				<French>max</French>
+				<German>max</German>
+				<Italian>max</Italian>
+				<Polish>max</Polish>
+				<Portuguese>max</Portuguese>
+				<Russian>max</Russian>
+				<Spanish>max</Spanish>
+			</Key>
+      <Key ID="str_dsp_Meters">
+				<Original>meters</Original>
+				<English>meters</English>
+				<Czech>metry</Czech>
+				<French>mètres</French>
+				<German>meters</German>
+				<Italian>metri</Italian>
+				<Polish>metrów</Polish>
+				<Portuguese>metros</Portuguese>
+				<Russian>метры</Russian>
+				<Spanish>metros</Spanish>
+			</Key>
+      <Key ID="str_dsp_respawnDelay">
+				<Original>respawn delay:</Original>
+				<English>respawn delay:</English>
+				<Czech>respawn zpoždění:</Czech>
+				<French>délai de réapparition:</French>
+				<German>respawn-verzögerung:</German>
+				<Italian>ritardo respawn:</Italian>
+				<Polish>opóźnienie respawn:</Polish>
+				<Portuguese>atraso de respawn:</Portuguese>
+				<Russian>Задержка респауна:</Russian>
+				<Spanish>demora respawn:</Spanish>
+			</Key>
+      <Key ID="str_dsp_respawnAltitude">
+				<Original>respawn altitude:</Original>
+				<English>respawn altitude:</English>
+				<Czech>respawn nadmořská výška:</Czech>
+				<French>respawn altitude:</French>
+				<German>respawn höhe:</German>
+				<Italian>respawn altitudine:</Italian>
+				<Polish>wysokość respawn:</Polish>
+				<Portuguese>respawn altitude:</Portuguese>
+				<Russian>Высота респауна:</Russian>
+				<Spanish>altitud respawn:</Spanish>
+			</Key>
+      <Key ID="str_dsp_Key">
+				<Original>key</Original>
+				<English>key</English>
+				<Czech>klíč</Czech>
+				<French>clé</French>
+				<German>schlüssel</German>
+				<Italian>chiave</Italian>
+				<Polish>klucz</Polish>
+				<Portuguese>chave</Portuguese>
+				<Russian>ключ</Russian>
+				<Spanish>clave</Spanish>
+			</Key>
+      <Key ID="str_dsp_Suicide">
+				<Original>Suicide</Original>
+				<English>Suicide</English>
+				<Czech>Sebevražda</Czech>
+				<French>Suicide</French>
+				<German>Selbstmord</German>
+				<Italian>Suicidio</Italian>
+				<Polish>samobójstwo</Polish>
+				<Portuguese>Suicídio</Portuguese>
+				<Russian>Самоубийство</Russian>
+				<Spanish>Suicidio</Spanish>
+			</Key>
+		</Container>
+	</Package>
+</Project>

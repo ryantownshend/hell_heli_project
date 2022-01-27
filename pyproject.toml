@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "hell_heli_project"
+version = "0.1.0"
+description = ""
+authors = ["Ryan <citizen.townshend@gmail.com>"]
+
+packages = [
+    { include="scripts", from="." },
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.8"
+click = "^8.0.3"
+memetext = "^0.1.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.scripts]
+setup_missions = "scripts.setup_missions:main"
+convertpaa = "scripts.convert_to_paa:main"
