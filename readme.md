@@ -6,7 +6,7 @@ We will be using [poetry](https://python-poetry.org) to manage the python script
 
 ## mission orchestation
 
-Assemble multiple missions, per map using the same codebase. 
+Assemble multiple missions, per map using the same codebase.
 
 ### `hell_heli_refactored` folder
 
@@ -16,39 +16,42 @@ Edit this one, not the mission folders.
 
 Create the mission folders and appropriate symlinks.
 
-```
+```shell
 poetry.exe run setup_missions
 ```
-
 
 ### `memetext`
 
 Handle writing the map names on the images
 
-- image should be 1024 x 512 png 
+- image should be 1024 x 512 png
 - Top text will be map name, fontsize 120
 - Bottom Text will be "Hell-Heli Refactored" in fontsize 60
 
-
 Generate the base image used by each map
 
+```shell
+poetry.exe run produce_images --name Reshmaan
 ```
+
+older scripts
+
+```shell
 poetry.exe run memetext --image images/wreck.png  --bottom "hell-heli refactored" --fontsize 60 --save wreck2.png
 ```
 
 Generate the map specific image, later converted to .paa for the mission
-```
+
+```shell
 poetry.exe run memetext --image images/wreck_overview.png --fontsize 120 --top "Weferlingen (Winter)" --save images/weferlingen_winter.png
 ```
 
 Generate the .jpg used for workshop preview, but it in c:\images for simplicity
-```
+
+```shell
 poetry.exe run memetext --image images/wreck_overview.png --fontsize 120 --top "Weferlingen (Winter)" --save /c:/images/weferlingen_winter.jpg
 
 ```
-
-
-
 
 ### imagetopaa
 
@@ -56,14 +59,14 @@ poetry.exe run memetext --image images/wreck_overview.png --fontsize 120 --top "
 - <https://community.bistudio.com/wiki/ImageToPAA>
 - <https://paa.gruppe-adler.de/>
 
-
-```
+```shell
 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Tools
 C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Tools\ImageToPAA
 ```
+
 ImageToPAA --help
 
-```
+```shell
 $ ./ImageToPAA.exe --help
 Arguments used:
 '--help'
@@ -73,12 +76,14 @@ Options:
         -size=<n>
 ```
 
+vt7 example
+```shell
+./ImageToPAA.exe c:/images/vt7.jpg /c:/images/vt7.paa
+```
+
 ### publishing to workshop
 
 - <https://arma3.com/workshop101>
 - <https://community.bistudio.com/wiki/Publisher>
 - <https://community.bistudio.com/wiki/Arma_3:_Publisher>
-
-
 - <https://partner.steamgames.com/doc/sdk/uploading>
-

@@ -24,3 +24,4 @@ build-backend = "poetry.core.masonry.api"
 [tool.poetry.scripts]
 setup_missions = "scripts.setup_missions:main"
 convertpaa = "scripts.convert_to_paa:main"
+produce_images = "scripts.produce_images:main"
